@@ -1,0 +1,51 @@
+* {
+    font-family: 'Impact', sans-serif;
+    transition: 0.3s all;
+    font-weight: 600;
+    margin: auto;
+    background-color: #3d66b3;
+}
+#app {
+    width: 200px;
+}
+input[type="text"] {
+    font-family: Georgia;
+    width: 200px;
+    border: 0;
+    color: #475b6d;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.cell {
+    flex: 33%;
+    height: 50px;
+    font-size: 20px;
+    border: solid;
+    border-color: #3d5b74;
+    border-width: 1px;
+}
+.num {
+    background-color: #000000;
+    color: #fff;
+    font-weight: 400;
+}
+.num:hover {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.op:hover {
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+}
+.op {
+    background-color: rgb(255, 255, 255);
+    color: #243849;
+}
